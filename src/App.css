@@ -1,0 +1,123 @@
+@import 'bulma/css/bulma.css';
+
+.login-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 90px;
+}
+.address-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+.product-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+.contact-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  
+}
+.mainhome{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+.adress{
+  margin-top: 50px;
+ width: 400px;
+
+}
+.menu{
+  color: #fff;
+  font-size: large;
+}
+
+.home-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  
+}
+.adres{
+ width: 400px;
+}
+.navar{
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  height: 70px;
+  background-color: #0099ff;
+  color: #fff;
+}
+.items{
+  display: flex;
+  gap: 20px;
+}
+img{
+  max-width: 100%;
+}
+.logo{
+  width: 150px;
+}
+
+.footer-container{
+  background-color: coral;
+  height: 250px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.loder{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+.onSVG{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.onSVG p{
+  color: #fff;
+}
+.footer-c{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media(max-width: 768px) {
+  .login-container{
+    margin-bottom: 100px;
+  }
+  .navar{
+    width: 394px;
+  }
+  .loginvox{
+    max-width: 370px;
+  }
+  
+ .footer-c{
+  display: none;
+ }
+  .mainhome{
+    display: flex;
+    flex-direction: column;
+  }
+}
